@@ -47,6 +47,10 @@ where ct."Tenure_Months" > tm.rata_rata
   where "Location" LIKE 'New%'
 
 
+--Commit Alya
+select * from ecommerce.online_sales
+where "Transaction_Date" like '2019-07%'
+
 
 
 
