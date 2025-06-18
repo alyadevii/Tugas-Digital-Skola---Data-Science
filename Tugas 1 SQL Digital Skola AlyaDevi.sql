@@ -26,7 +26,7 @@ from ecommerce.online_sales
 where "Product_Category" = 'Bags'
 
 --Soal 4
-
+--bandingkan semua customer dengan rata rata tiap lokasi
 with tm as(
 select "Location",avg ("Tenure_Months")as rata_rata from ecommerce.customers
 group by "Location"),
@@ -34,9 +34,17 @@ group by "Location"),
 ct as 
 (select * from ecommerce.customers)
 
-select ct."CustomerID",ct."Location" from tm 
+select ct."CustomerID",ct."Location",ct."Tenure_Months",tm."rata_rata" from tm 
 left join ct on ct."Location" = tm."Location"
 where ct."Tenure_Months" > tm.rata_rata
+
+--membandingkan customer terhadap rata rata global customer
+select
+	"CustomerID",
+	"Location"
+from ecommerce.customers c 
+where "Tenure_Months" > (select avg("Tenure_Months")
+							from ecommerce.customers)
 
 
 --Soal 5
