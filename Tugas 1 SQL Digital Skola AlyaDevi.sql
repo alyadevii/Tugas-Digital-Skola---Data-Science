@@ -51,6 +51,9 @@ where ct."Tenure_Months" > tm.rata_rata
 select * from ecommerce.online_sales
 where "Transaction_Date" like '2019-07%'
 
+--Commit Aris
+select * from ecommerce.customers
+
 
 
 
