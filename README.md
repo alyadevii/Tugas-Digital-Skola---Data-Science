@@ -32,4 +32,50 @@ Proyek-proyek di repositori ini berfokus pada:
 ## 📂 Struktur Repositori
 
 Repositori ini mungkin berisi folder-folder yang merepresentasikan setiap tugas atau modul. Contoh struktur:
+Tugas-Digital-Skola—Data-Science/
+│
+├── 1. Python Dasar/
+├── 2. Numpy & Pandas/
+├── 3. Exploratory Data Analysis/
+├── 4. Data Visualization/
+├── 5. ML - Regresi/
+├── 6. ML - Klasifikasi/
+├── 7. Mini Project/
+└── README.md
 
+## 🎯 Tujuan Pembelajaran
+
+1. **Memahami dasar-dasar Python**
+   - Tipe data, variabel, kontrol alur, dan fungsi dasar
+2. **Menguasai manipulasi data dengan Numpy & Pandas**
+   - Pembersihan, filtering, grouping, dan agregasi data
+3. **Melakukan Exploratory Data Analysis (EDA)**
+   - Statistik deskriptif, deteksi outlier, dan insight awal
+4. **Membuat visualisasi data yang informatif**
+   - Menggunakan Matplotlib dan Seaborn untuk menyampaikan insight
+5. **Mengenal model Machine Learning dasar**
+   - Regresi linear, decision tree, KNN, dan evaluasi model
+6. **Menerapkan proses analisis data secara end-to-end**
+   - Dari pembersihan data hingga interpretasi hasil model
+
+## ✨ Apa yang Telah Saya Pelajari
+
+Melalui pengerjaan tugas-tugas ini, saya telah mengonsolidasikan pemahaman saya tentang:
+
+* Alur kerja lengkap seorang Data Scientist, mulai dari pemahaman masalah, pengumpulan data, *wrangling*, analisis, visualisasi, hingga komunikasi hasil.
+* Pentingnya *data profiling* dan pembersihan data sebagai fondasi analisis yang akurat.
+* Kemampuan `pandas` dan `numpy` dalam melakukan operasi data yang kompleks dengan cepat dan efisien.
+* Cara membangun *query* SQL yang efektif untuk berbagai skenario bisnis.
+* Strategi visualisasi data yang tepat untuk menyampaikan *insight* dengan jelas.
+
+---
+
+## 🤝 Kontribusi
+
+Repositori ini murni untuk tujuan dokumentasi pembelajaran pribadi saya. Namun, saya selalu terbuka untuk menerima umpan balik, saran, atau ide untuk peningkatan kode dan praktik yang lebih baik. Silakan berikan *issue* atau *pull request* jika ada masukan!
+
+---
+
+**Terima kasih telah mengunjungi dan meluangkan waktu untuk melihat perjalanan pembelajaran Data Science saya!**
+
+---
